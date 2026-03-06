@@ -16,7 +16,6 @@ background:#111;
 
 nav a{
 color:#ff4c4c;
-margin-left:18px;
 text-decoration:none;
 font-weight:bold;
 }
@@ -27,16 +26,13 @@ text-align:center;
 background:#1a1a1a;
 }
 
-section{
-padding:40px;
-max-width:1200px;
-margin:auto;
-}
-
-#video-grid{
+.video-grid{
 display:grid;
 grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
 gap:30px;
+padding:40px;
+max-width:1200px;
+margin:auto;
 }
 
 .video-card img{

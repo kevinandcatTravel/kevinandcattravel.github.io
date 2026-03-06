@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
 <url>
 <loc>https://kevinandcattravel.github.io/</loc>
 </url>
+
+<url>
+<loc>https://kevinandcattravel.github.io/bangkok-food-tour.html</loc>
+</url>
+
+<url>
+<loc>https://kevinandcattravel.github.io/tokyo-food-guide.html</loc>
+</url>
+
+<url>
+<loc>https://kevinandcattravel.github.io/japan-street-food.html</loc>
+</url>
+
+<url>
+<loc>https://kevinandcattravel.github.io/montreal-food.html</loc>
+</url>
+
 </urlset>

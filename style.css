@@ -16,6 +16,7 @@ background:#111;
 
 nav a{
 color:#ff4c4c;
+margin-left:18px;
 text-decoration:none;
 font-weight:bold;
 }
@@ -26,28 +27,21 @@ text-align:center;
 background:#1a1a1a;
 }
 
-.video-grid{
-display:grid;
-grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
-gap:30px;
-padding:40px;
-max-width:1200px;
+.content{
+max-width:1100px;
 margin:auto;
+padding:40px;
+line-height:1.6;
 }
 
-.video-card img{
-width:100%;
-border-radius:10px;
+.videos{
+max-width:1100px;
+margin:auto;
+padding:40px;
 }
 
-.video-card h3{
-font-size:16px;
-margin-top:10px;
-}
-
-a{
-color:white;
-text-decoration:none;
+iframe{
+border-radius:12px;
 }
 
 footer{

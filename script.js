@@ -14,20 +14,16 @@ const id = video.link.split("v=")[1];
 
 html += `
 <div class="video-card">
-
-<a href="video.html?v=${id}">
-
+<a href="https://www.youtube.com/watch?v=${id}" target="_blank">
 <img src="https://img.youtube.com/vi/${id}/maxresdefault.jpg">
-
 <h3>${video.title}</h3>
-
 </a>
-
 </div>
 `;
 
 });
 
-document.getElementById("video-grid").innerHTML = html;
+const grids = document.querySelectorAll("#video-grid");
+grids.forEach(g => g.innerHTML = html);
 
 });
